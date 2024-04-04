@@ -16,7 +16,7 @@ public class Connect {
 				e.printStackTrace();
 			}
 			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/e_commerce", "root",
-					"pprash405");
+					"*****");
 			
 
 		} catch (SQLException e) {
